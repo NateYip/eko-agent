@@ -1,0 +1,26 @@
+[package]
+name = "eko-core"
+version = "0.1.0"
+edition = "2021"
+description = "A pure state-graph execution engine for building AI agents in Rust"
+license = "MIT"
+repository = "https://github.com/NateYip/eko-agent"
+homepage = "https://github.com/NateYip/eko-agent"
+keywords = ["agent", "state-graph", "ai", "workflow", "langgraph"]
+categories = ["algorithms", "asynchronous"]
+readme = "README.md"
+
+[dependencies]
+eko-core-derive = { version = "0.1.0", path = "../eko-core-derive" }
+anyhow = "1.0.102"
+async-trait = "0.1.89"
+chrono = { version = "0.4.44", features = ["serde"] }
+futures = "0.3.32"
+rand = "0.10.0"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.149"
+thiserror = "2.0.18"
+tokio = { version = "1.49.0", features = ["full"] }
+tokio-stream = "0.1"
+tracing = "0.1.44"
+uuid = { version = "1.21.0", features = ["v4"] }

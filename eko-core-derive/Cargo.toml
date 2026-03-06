@@ -1,0 +1,18 @@
+[package]
+name = "eko-core-derive"
+version = "0.1.0"
+edition = "2021"
+description = "Derive macros for eko-core State trait"
+license = "MIT"
+repository = "https://github.com/NateYip/eko-agent"
+keywords = ["agent", "state-graph", "derive", "macro"]
+categories = ["development-tools::procedural-macro-helpers"]
+readme = "../eko-core/README.md"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2", features = ["full", "extra-traits"] }
+quote = "1"
+proc-macro2 = "1"

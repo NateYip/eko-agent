@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "eko-core",
+    "eko-core-derive",
+]
+resolver = "2"
