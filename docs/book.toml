@@ -1,0 +1,12 @@
+[book]
+title = "eko-core"
+description = "A pure state-graph execution engine for building AI agents in Rust"
+authors = ["NateYip"]
+language = "en"
+src = "src"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/NateYip/eko-agent"
+edit-url-template = "https://github.com/NateYip/eko-agent/edit/main/docs/src/{path}"
